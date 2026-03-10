@@ -23,6 +23,11 @@ El proyecto incluye configuraciones listas para ejecutar:
 
 ---
 
+🎥 **Ver video de demostración:**  
+[Haz clic aquí para abrir el video](https://eafit-my.sharepoint.com/personal/pvallej3_eafit_edu_co/_layouts/15/embed.aspx?UniqueId=c83df551-bb2d-4d3e-a90f-4f5b1b86d094)
+
+---
+
 ## 📂 Estructura del proyecto
 
 ```text
@@ -43,9 +48,4 @@ package-lock.json      # Bloqueo de versiones de dependencias
 sum.ts                 # Implementación de la operación de suma (TypeScript)
 sum.test.ts            # Prueba unitaria para la operación de suma
 
-tsconfig.json          # Configuración del compilador de TypeScript
-
-
-🎥 **Ver video de demostración:**  
-[Haz clic aquí para abrir el video](https://eafit-my.sharepoint.com/personal/pvallej3_eafit_edu_co/_layouts/15/embed.aspx?UniqueId=c83df551-bb2d-4d3e-a90f-4f5b1b86d094)
-
+tsconfig.json          # Configuración del compilador de TypeScript 
