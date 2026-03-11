@@ -5,7 +5,7 @@
  * @returns a / b
  */
 function divide(a: number, b: number): number {
-  if (b === 0) {
+  if (a === 0 && b === 0) {
     throw new Error("No se puede dividir por cero, vuelve a intentarlo con otro número");
   }
   return a/b;
