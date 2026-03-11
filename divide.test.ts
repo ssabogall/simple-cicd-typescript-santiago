@@ -23,8 +23,8 @@ describe("divide", () => {
     expect(window.divide(-6, 3)).toBe(-2);
   });
 
-  it("returns 0 when both are 0", () => {
-    expect(window.divide(0, 0)).toBe("No se puede dividir por cero, vuelve a intentarlo con otro número");
+  it("throws error when both are 0", () => {
+    expect(() => window.divide(0, 0)).toThrow("No se puede dividir por cero, vuelve a intentarlo con otro número");
   });
 });
 
